@@ -6,12 +6,8 @@ namespace ATM
     {
         public static  decimal Balance = 0;
          static void Main(string[] args)
-         try {
+          {
                 UserInterface();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine($"Something error happen {e.Message}");
             }
          public static void UserInterface()
         {
